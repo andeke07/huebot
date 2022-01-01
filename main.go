@@ -13,8 +13,8 @@ func main() {
 	// Set up a reader to read from stdio
 	reader := bufio.NewReader(os.Stdin)
 
-	fmt.Println("Welcome to Huebot!")
-	fmt.Println("Currently no Bridges configured")
+	fmt.Println("Welcome to Huebot!\n")
+	fmt.Println("Currently no Bridges configured\n")
 	fmt.Print("Would you like to configure a bridge now? (y/N): ")
 
 	// Get user's input
